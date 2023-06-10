@@ -19,23 +19,23 @@ This Bash script is designed to update the color theme in a JSON file using the 
 4. Run the script using the following command:
 
    ```bash
-   bash random-theme.sh
+   bash themeChanger.sh
    ```
 
    You can also run the script using the following command:
 
    ```bash
-   ./random-theme.sh
+   ./themeChanger.sh
    ```
 
    Make sure the script has the execute permission. If not, run the following command:
 
    ```bash
-   chmod +x random-theme.sh
+   chmod +x themeChanger.sh
    ```
 
 5. You can add the script to your crontab to run it automatically at a specific time. For example, to run the script every day at 9:00 AM, add the following line to your crontab:
 
    ```bash
-    0 9 * * * /path/to/random-theme.sh
+    0 9 * * * /path/to/themeChanger.sh
    ```
